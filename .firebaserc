@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "nea-website-c1e76"
-  }
+    "default": "nea-website-c1e76",
+    "staging": "nea-wolbachia-a62b4"
+  },
+  "targets": {}
 }
