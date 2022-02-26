@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+  <style> @-ms-viewport { width: device-width; } </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="vendor/swiper.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="vendor/reset.min.css">
+  <link rel="stylesheet" href="vendor/swiper.css">
+  <link rel="stylesheet" href="style_360.css">
+  <link rel="stylesheet" href="vendor/plyr.css">
+  <link rel="shortcut icon" href="#">
+  <script src="preloader_360.js"></script>
+  <script src="vendor/plyr.js"></script>
+</head>
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
+
+  <p id="version-number">v0.998</p>
+    
+  <!-- Portrait Message -->
+  <div id="portrait-overlay">
+      <div id="portrait-container">
+          <div id="portrait-icon"></div>
+          <br><br>
+          <p id="portrait-description">Please turn your device<br>into landscape mode.<br>For a better viewing experience<br>of our 360° tour, please turn on the<br>fullscreen mode.</p>
+      </div>
+  </div>
+
+  <!-- stacking the corridor on top of 360.html -->
+  <!-- <iframe src="corridor.html" id="corridor-page"></iframe> -->
+
+<div id="corridor-page">
+  <div id="reference_vh"></div>
+  <div id="corridor_background"></div>
+    <div id="greenGradient_overlay"></div>
+    
+
+    <div id="item_container">
+
+        <main>
+            <div id="text-container">
+                <div id="text-details">
+                    <h5 id="corridor_subheader">PROJECT <span class="italic-bold">WOLBACHIA</span> - SINGAPORE'S</h5>
+                    <h2 id="text-title">FROM EGG
+                        <p /> TO ADULT
+                    </h2>
+                    <div id="text-description">
+                        Click into the rooms to learn about the steps in the rearing of male <span class="italic">Wolbachia-Aedes</span> mosquitoes. Many of the innovations you will see were developed in-house with our collaborator, Orinno Technology Pte. Ltd, to make it possible for us to scale up production.
+                    </div>
+                    <div id="back-to-home"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <div class="swiper-container swiper-container-corridor">
+        <div class="swiper-wrapper swiper-wrapper-corridor">
+            <div class="swiper-slide" style="display: flex; justify-content: center;">
+              <div class="swiper-slide-corridor" id="adultRoom">
+                <div class="slider-img" style="background-image: url('img/corridor-carousel-images/adult.jpg');"></div>
+                <div class="slider-text">
+                    <h4>Adult Room</h4>
+                    <p>Adult male and female <span class="italic">Wolbachia-Aedes</span> 
+                      mosquitoes are reared to produce large 
+                      numbers of eggs.
+                    </p>
+                    <div class="explore-btn">
+                    </div>
+                </div>
+              </div>  
+
+              <div class="swiper-slide-corridor" id="larvaeRoom">
+                <div class="slider-img" style="background-image: url('img/corridor-carousel-images/larvae.jpg');"></div>
+                <div class="slider-text">
+                    <h4>Larvae Room</h4>
+                    <p>Mosquito eggs are hatched and 
+                      <span class="italic">Wolbachia-Aedes</span> larvae are reared 
+                      to the pupae stage under controlled 
+                      environmental conditions.</p>
+                    <div class="explore-btn">
+                    </div>
+                </div>
+              </div> 
+            </div>
+
+            <div class="swiper-slide" style="display: flex; justify-content: center;">
+              <div class="swiper-slide-corridor" id="sorterRoom">
+                <div class="slider-img" style="background-image: url('img/corridor-carousel-images/sorter.jpg');"></div>
+                <div class="slider-text">
+                    <h4>Sorting Room</h4>
+                    <p>Male pupae are smaller than female 
+                      pupae and can be sorted by size. Sorting 
+                      is done with very high accuracy, leaving 
+                      only very few females. </p>
+                    <div class="explore-btn">
+                    </div>
+                </div>
+              </div>  
+
+              <div class="swiper-slide-corridor" id="emergenceRoom">
+                <div class="slider-img" style="background-image: url('img/corridor-carousel-images/emergence.jpg'); background-position: 20% 50%;"></div>
+                <div class="slider-text">
+                    <h4>Emergence Room</h4>
+                    <p>Irradiated pupae are packed into 
+                      release devices and allowed to emerge into 
+                      adult <span class="italic">Wolbachia-Aedes</span> mosquitoes 
+                      for release in the field.
+                    </p>
+                    <div class="explore-btn">
+                    </div>
+                </div>
+              </div> 
+            </div>
+
+            <div class="swiper-slide" style="display: flex; justify-content: center;">
+              
+
+              <div class="swiper-slide-corridor" id="qualityControlRoom">
+                <div class="slider-img" style="background-image: url('img/corridor-carousel-images/quality-control.jpg'); background-position: 100% 50%;"></div>
+                <div class="slider-text">
+                    <h4>Quality Control Room</h4>
+                    <p>Regular laboratory testing is 
+                      conducted to ensure that the male 
+                      <span class="italic">Wolbachia-Aedes</span> mosquitoes we 
+                      release continue to carry <span class="italic">Wolbachia</span>.</p>
+                    <div class="explore-btn">
+                    </div>
+                </div>
+              </div> 
+              
+              <div class="swiper-slide-corridor" id="field">
+                <div class="slider-img" style="background-image: url('img/corridor-carousel-images/field.jpg');"></div>
+                <div class="slider-text">
+                    <h4>Field Release</h4>
+                    <p>Male <span class="italic">Wolbachia-Aedes aegypti</span> mosquitoes 
+                      are released into the community to suppress 
+                      the urban dengue mosquito populations.</p>
+                    <div class="explore-btn">
+                    </div>
+                </div>
+              </div>  
+            </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-corridor"></div>
+        <!-- <div class="swiper-scrollbar"></div> -->
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>    
+</div>
+
+<div id="pano"></div>
+
+<!-- Popup overlay to cover all elements beside the popupwindow -->
+<div id="popup-overlay"></div>
+<div id="xray-popup-overlay">
+  <div class="back-to-corridor"></div>
+  <div class="next-btn"></div>
+</div>
+
+<!-- Text popup window -->
+<div id="text-popup-container" class="popup-windows">
+  <div id="text-popup-content">
+    <div id="text-popup-close-btn" class="close-btn"></div>
+    <div id="text-popup-title"></div>
+    <div id="text-popup-text"></div>
+  </div>
+</div>
+
+<!-- Image popup window -->
+<div id="image-popup-container" class="popup-windows">
+  <div id="image-popup-close-btn" class="close-btn"></div>
+  <div id="image-popup-content">  
+    <div id="image-popup-details">
+      <div id="image-popup-image">
+        <img alt="Displayed Image" class="image-display">
+        <!-- <div class="image-display"></div> -->
+        <!-- <p id="image-popup-fullscreen-text">Click on image to view in detail</p> -->
+      </div>
+      <div id="image-popup-image-details">
+        <h1 id="image-popup-title"></h1>
+        <div id="image-popup-description"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Multi Image popup window -->
+<div id="multi-image-popup-container" class="popup-windows">
+  <div id="multi-image-popup-close-btn" class="close-btn"></div>
+  <div id="multi-image-popup-content">  
+    <!-- Swiper -->
+    <div class="swiper-container popup-swiper">
+      <div class="swiper-wrapper popup-swiper-wrapper"></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination">
+
+      </div>
+    </div>
+
+    <div id="multi-image-popup-details">
+      <h1 id="multi-image-popup-title"></h1>
+      <div id="multi-image-popup-description">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="fullscreen-container"></div>
+
+<!-- Video popup window -->
+<div id="video-popup-container" class="popup-windows">
+  <div id="video-popup-close-btn" class="close-btn"></div>
+  <div id="video-popup-content">   
+    <div id="video-container">
+      <!-- <video playsinline controls crossorigin id="player">
+        <source type="video/mp4">
+      </video> -->
+    </div>
+    <div id="video-popup-details">
+      <h2 id="video-popup-title"></h2>
+      <p id="video-popup-description"></p>
+    </div>
+  </div>
+</div>
+
+<div id="info-popup-container" class="popup-windows">
+  <div id="info-popup-close-btn" class="close-btn"></div>
+  <div id="info-popup-content">
+    <div id="info-popup-title"></div>
+    <div id="info-popup-details"></div>
+  </div>
+</div>
+
+<div id="static-bar">
+
+  <div id="scene-details">
+    <h1 id="scene-name"></h1>
+    <p id="scene-description"></p>
+  </div>
+
+  <div class="back-to-corridor"></div>
+
+  <div id="small-icons-container">
+    <div id="zoom-in" class="small-icons"></div>
+    <div id="zoom-out" class="small-icons"></div>
+    <div id="fullscreen" class="small-icons"></div>
+    <div id="sound" class="small-icons"></div>
+    <div id="info" class="small-icons"></div>
+  </div>
+
+  <div class="next-btn"></div>  
+</div>
+
+<!-- X-Ray video -->
+<!-- Image popup window -->
+<div id="xray-popup-container" class="popup-windows">
+  <div id="xray-popup-content">  
+    <div id="xray-popup-details">
+      <div id="xray-popup-image">
+        <video playsinline controls crossorigin id="xray-player">
+          <source src="video/Nea Wolbachia Mosquitoes Feed V1 Revised.m4v" type="video/mp4">
+        </video>
+        <img alt="Displayed Image" class="xray-image-display" src="img/hotspot-img/xrayRoom/Xray.jpg">
+      </div>
+      <div id="xray-popup-image-details">
+        <h1 id="xray-popup-title">X-Ray Room</h1>
+        <div id="xray-popup-description">Sorted pupae are exposed to a low dose of X-ray radiation. This sterialises any remaining few female <span style="font-style: italic;">Wolbachia-Aedes</span>.</div>
+        <div id="continue-btn"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="xray-video-container">
+  <!-- <img src="img/hotspot-img/xrayRoom/Xray.jpg" alt="" id="xray-bg-image"> -->
+</div>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyC8duyN7YNheHupORtIsZbXcObUsb_JEd8",
+    authDomain: "nea-website-c1e76.firebaseapp.com",
+    projectId: "nea-website-c1e76",
+    storageBucket: "nea-website-c1e76.appspot.com",
+    messagingSenderId: "720186091511",
+    appId: "1:720186091511:web:683d9893755b5880c030f2",
+    measurementId: "G-RLQRRBLRY1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+</body>
+</html>
